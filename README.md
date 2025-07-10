@@ -6,6 +6,7 @@ A robust email-sending service built in JavaScript that simulates real-world ema
 
 ## Table of Contents
 
+- [Live Demo](#live-demo)
 - [Overview](#overview)
 - [Features](#features)
 - [Architecture](#architecture)
@@ -16,6 +17,14 @@ A robust email-sending service built in JavaScript that simulates real-world ema
 - [Assumptions](#assumptions)
 - [Future Improvements](#future-improvements)
 - [License](#license)
+
+---
+
+## Live Demo
+
+🚀 **[View Live Demo](https://resilient-mailer.onrender.com/)**
+
+Experience the Resilient Mailer in action with our hosted demo.
 
 ---
 
@@ -116,7 +125,7 @@ resilient-mailer/
 ### Steps
 
 ```bash
-https://github.com/fuzail-pixel/resilient-mailer.git
+git clone https://github.com/fuzail-pixel/resilient-mailer.git
 cd resilient-mailer
 ```
 
