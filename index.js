@@ -1,6 +1,3 @@
-// index.js
-
-// Queue mode
 const QueueProcessor = require('./QueueProcessor');
 
 const emailQueue = [
@@ -25,9 +22,6 @@ const emailQueue = [
   const processor = new QueueProcessor(emailQueue);
   await processor.processQueue();
 })();
-
-// -------------------------------------------------------
-// Uncomment this section to test sending a single email
 
 const EmailService = require('./services/EmailService');
 

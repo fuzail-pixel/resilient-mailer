@@ -1,5 +1,3 @@
-// utils/CircuitBreaker.js
-
 class CircuitBreaker {
   constructor(failureThreshold = 3, cooldownTime = 10000) {
     this.failureThreshold = failureThreshold;

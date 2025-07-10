@@ -1,7 +1,8 @@
 const assert = require('assert');
 const CircuitBreaker = require('../utils/CircuitBreaker');
 
-// 2 failures allowed, cooldown 2s
+// Test CircuitBreaker functionality
+// Allow max 2 failures before opening circuit, with a cooldown of 2000ms
 const breaker = new CircuitBreaker(2, 2000);
 
 // Should allow at first
@@ -22,6 +23,6 @@ setTimeout(() => {
   breaker.recordSuccess();
   assert.strictEqual(breaker.canAttempt(), true, "Should be CLOSED after success");
 
-  console.log("✅ CircuitBreaker tests passed.");
+  console.log(" CircuitBreaker tests passed.");
 }, 2100);
 

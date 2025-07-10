@@ -27,4 +27,4 @@ store.markSent(key);
 // Should now return true
 assert.strictEqual(store.isSent(key), true, "Email should be marked as sent");
 
-console.log("✅ IdempotencyStore tests passed.");
+console.log(" IdempotencyStore tests passed.");

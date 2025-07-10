@@ -14,5 +14,5 @@ assert.strictEqual(limiter.allow(), false, "4th call should be blocked");
 
 setTimeout(() => {
   assert.strictEqual(limiter.allow(), true, "Should allow after cooldown");
-  console.log("✅ RateLimiter tests passed.");
+  console.log("RateLimiter tests passed.");
 }, 2100);
