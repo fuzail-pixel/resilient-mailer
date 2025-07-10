@@ -116,7 +116,7 @@ resilient-mailer/
 ### Steps
 
 ```bash
-git clone https://github.com/yourusername/resilient-mailer.git
+https://github.com/fuzail-pixel/resilient-mailer.git
 cd resilient-mailer
 ```
 
