@@ -1,0 +1,25 @@
+{
+  "name": "resilient-mailer",
+  "version": "1.0.0",
+  "description": "A robust email-sending service built in JavaScript that simulates real-world email dispatch infrastructure with built-in resiliency features like retries, fallback, circuit breaking, rate limiting, idempotency, logging, and a basic queue processor.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/ratelimiter.test.js && node tests/idempotency.test.js && node tests/circuitbreaker.test.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuzail-pixel/resilient-mailer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fuzail-pixel/resilient-mailer/issues"
+  },
+  "homepage": "https://github.com/fuzail-pixel/resilient-mailer#readme"
+}
