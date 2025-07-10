@@ -22,7 +22,7 @@ A robust email-sending service built in JavaScript that simulates real-world ema
 
 ## Live Demo
 
-🚀 **[View Live Demo](https://resilient-mailer.onrender.com/)**
+🚀 **[View Live Demo](https://resilient-mailer.onrender.com)**
 
 Experience the Resilient Mailer in action with our hosted demo.
 
